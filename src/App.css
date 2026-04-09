@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ececec;
+    font-size: 16px;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 11vh;
+    background-color: #1c1d24;
+    border-bottom: solid #101011 2px;
+}
+header img {
+    height: 9.5vh;
+    margin-left: 1.3%;
+}
+section {
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+}
+article {
+    height: 70vh;
+    background-color: #2e2d38;
+    border: solid #0d0d0e 3px;
+    width: 35%;
+    border-radius: 18px;
+    padding-top: 1rem;
+}
+article strong {
+    text-decoration: underline;
+}
